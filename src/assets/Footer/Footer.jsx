@@ -105,6 +105,7 @@ const Footer = () => {
     <img src="https://irshad.az/images/svg-icons/JIS.svg" alt="" /> <strong>Jeykhun Imanov</strong></a><p>Studio</p>
     </div> 
       </div>
+   
     </footer>
   );
 };
