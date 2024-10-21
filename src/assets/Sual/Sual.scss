@@ -17,19 +17,17 @@
   }
   .accordion-container {
     .custom-accordion {
-      border-radius: 8px; // Set the border radius
+      border-radius: 8px; 
   
-      // Optional: to ensure the background color is also rounded
-      overflow: hidden; // This ensures that the inner elements respect the border radius
+      overflow: hidden; 
   
      
       .MuiAccordionSummary-root {
-        border-radius: 8px 8px 0 0; // Round the top corners
-      }
+        border-radius: 8px 8px 0 0;
   
    
     }
-  }
+  }}
   
   .accordion-container {
     .custom-accordion {
@@ -46,7 +44,7 @@
 .sc-btn2,
 .sc-btn3,
 .sc-btn4 {
-  box-shadow: none !important; // Gölgeyi kaldır
+  box-shadow: none !important; 
   border:none;
   border-radius: 10px;
   padding: 15px;
@@ -54,15 +52,15 @@
 }
 
   .accordion-container {
-    width: 60%;          // Genişliği %60 yap
-    margin: 0 auto;     // Ortaya yerleştir
+    width: 60%;        
+    margin: 0 auto;   
   }
   h3{
     font-size: 30px;
   }
   .Sual-button{
-    width: 60%;          // Genişliği %60 yap
-    margin: 0 auto;     // Ortaya yerleştir
+    width: 60%;          
+    margin: 0 auto;     
     margin-bottom: 20px;
     display: flex;
     gap: 10px;
@@ -84,14 +82,12 @@
       }
         
   }
-  .first-word {
-    text-transform: uppercase; // İlk kelimeyi büyük harfle yaz
-  }
+
   
   .custom-accordion {
     .MuiAccordionSummary-root {
-      color: #232d40; // Metin rengi
-      font-weight: 600; // Kalınlık
+      color: #232d40; 
+      font-weight: 600; 
       font-family: Inter, sans-serif
       
     }
@@ -99,8 +95,8 @@
    
     }
 .Sual-button2{
-    display: flex;            // Flexbox kullan
-  justify-content: center; // Yatayda ortala
+    display: flex;           
+  justify-content: center;
   margin-top: 20px;       
     .sc-btn5{
         color: #5b5f66;
