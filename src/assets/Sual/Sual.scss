@@ -1,0 +1,124 @@
+.custom-accordion {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 20px;
+    border: 1px solid #e3e5eb;
+    box-shadow: none !important;
+  
+    &.Mui-expanded {
+      border: 1px solid orange; 
+    }
+    
+  
+  
+  }
+  .accordion-container {
+    .custom-accordion {
+      border-radius: 8px; // Set the border radius
+  
+      // Optional: to ensure the background color is also rounded
+      overflow: hidden; // This ensures that the inner elements respect the border radius
+  
+     
+      .MuiAccordionSummary-root {
+        border-radius: 8px 8px 0 0; // Round the top corners
+      }
+  
+   
+    }
+  }
+  
+  .accordion-container {
+    .custom-accordion {
+    
+  
+      .MuiAccordionDetails-root {
+        color: #5b5f66; 
+        font-family: Inter, sans-serif
+      }
+    }
+  }
+  
+  .sc-btn1,
+.sc-btn2,
+.sc-btn3,
+.sc-btn4 {
+  box-shadow: none !important; // Gölgeyi kaldır
+  border:none;
+  border-radius: 10px;
+  padding: 15px;
+  font-size: 17px;
+}
+
+  .accordion-container {
+    width: 60%;          // Genişliği %60 yap
+    margin: 0 auto;     // Ortaya yerleştir
+  }
+  h3{
+    font-size: 30px;
+  }
+  .Sual-button{
+    width: 60%;          // Genişliği %60 yap
+    margin: 0 auto;     // Ortaya yerleştir
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+    border: none;
+    box-shadow: transparent;
+    .sc-btn1{
+        background-color: #F6861F;
+        color: white;
+        padding: 17px;
+      }
+      .sc-btn2,.sc-btn3,.sc-btn4{
+        background-color: white;
+        color:#5b5f66;
+        &:hover{
+            background-color: #F6861F;
+            color: white;
+           
+        }
+      }
+        
+  }
+  .first-word {
+    text-transform: uppercase; // İlk kelimeyi büyük harfle yaz
+  }
+  
+  .custom-accordion {
+    .MuiAccordionSummary-root {
+      color: #232d40; // Metin rengi
+      font-weight: 600; // Kalınlık
+      font-family: Inter, sans-serif
+      
+    }
+  
+   
+    }
+.Sual-button2{
+    display: flex;            // Flexbox kullan
+  justify-content: center; // Yatayda ortala
+  margin-top: 20px;       
+    .sc-btn5{
+        color: #5b5f66;
+        border: 2px solid #5b5f66;
+        border-radius: 8px;
+        padding: 15px 33px;
+        background-color: #fff;
+     font-size: 18px;
+        font-family: Inter, sans-serif
+        
+       
+        
+    }
+    .sc-btn5:hover{
+        color: white;
+        background-color: #5b5f66;
+        transition: 1s;
+    }
+}
+
+  
